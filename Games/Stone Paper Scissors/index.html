@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone,Paper,Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+    <h1 id="heading">Rock Paper Scissors</h1>
+    <div >
+        <button id="back"><i class="fa-regular fa-circle-left fa-2x"></i></button>
+    </div>
+    <div class="choices">
+        <div class="choice" id="rock">
+            <figure>
+                <img src="./rock.png" />
+                <figcaption class="caption">Rock</figcaption>
+            </figure>
+        </div>
+        <div class="choice" id="paper">
+            <figure>
+                <img src="./paper.png" />
+                <figcaption class="caption">Paper</figcaption>
+            </figure>
+        </div>
+        <div class="choice" id="scissors">
+            <figure>
+                <img src="./scissors.png" />
+                <figcaption class="caption">Scissors</figcaption>
+            </figure>
+        </div>
+        <div class="board"></div>
+        <div class="card"></div>
+    </div>
+    <div class="scoreBoard">
+        <div class="score">
+            <p id="userScore">0</p>
+            <p>You</p>
+        </div>
+        <div class="score">
+            <p id="compScore">0</p>
+            <p>Comp</p>
+        </div>
+    </div>
+    <div class="msgContainer">
+        <div class="msg">Play your move</div>
+    </div>
+    <div id="winOrLoose">
+        <h1 id="winner"></h1>
+        <h1 id="looser"></h1>
+        <h1 id="draw"></h1>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
